@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Border: 0;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inicio {
+    background-image: url(../img/bg.jpg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.foto1,
+.foto2,
+.foto3 {
+    font-size: large;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 6%;
+    margin-left: 6%;
+}
+
+.piedepagina {
+    margin-top: 6%;
+    color: #ffffffc5;
+    background-color: #09090af9;
+    font-size: 20px;
+}
+
+.redsocial {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.derechos {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+}
