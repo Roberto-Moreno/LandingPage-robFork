@@ -5,50 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TheBank</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/img/favicon.jpg">
-    <script src="https://kit.fontawesome.com/2cf920e266.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>thebankrestauracia/</title>
 </head>
 
 <body>
-
-    <header class="inicio">
-        <h1>TheBank</h1>
-    </header>
-    <br>
-    <section>
-        <article class="foto1">
-            <img src="assets/img/foto1.jpg" alt="computador1" width="350px">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-        </article>
-        <br>
-        <article class="foto2">
-            <img src="assets/img/foto2.jpg" alt="computador2manos" width="350px">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-        </article>
-        <br>
-        <article class="foto3">
-            <img src="assets/img/foto3.jpg" alt="persona3" width="350px">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-        </article>
+    <section class="header">
+        <img src="assets/img/fotoPortada1.jpg" class="d-block w-100" height="450px" alt="fotoPortada1">
     </section>
-    <footer class="piedepagina">
-        <h2>Contacto</h2>
-        <div class="redsocial">
-            <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-            <a href="#"> <i class="fab fa-twitter-square"></i> Twitter</a>
-            <a href="#"> <i class="fab fa-linkedin"></i> Linkedin</a>
-        </div>
-        <div class="derechos">
-            <p>Todos los derechos reservados (c) 2022</p>
-            <b>Kaiserthedog</b>
-        </div>
+    <h1 class="text-center">Restaurante</h1>
 
-    </footer>
+    <section class="galeria">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="assets/img/fotoComida1.jpg" class="card-img-top"
+                            alt="foto pizza">
+                        <div class="card-body">
+                            <h6 class="card-title">Pizza Familiar Napolitana </h6>
+                            <p class="card-text">Ven a nosotros o haz tu pedido desde tu teléfono. números:
+                                ☎️ 0917 787 555, y te llevaremos pizza fresca en la puerta de tu casa. 🍕🍕</p>
+                            <p class="card-text"><i class="fa-solid fa-location-dot"></i> 9191 Avenida Vitacura, Chile
+                            </p>
+                            <hr>
+                            <p class="text-end">$45.990 <span class=" ml-2 mb-1 text-success font-weight-normal fs-4">
+                                    $22.990</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="assets/img/fotoComida2.jpg" class="card-img-top"
+                            alt="foto plato de comida">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa de cerdo</h5>
+                            <p class="card-text">En oferta todos los días, ¡también a domicilio! 🍔 🍔
+                                Hamburguesa de cerdo desmenuzada disponible todos los días, para delivery también 🍔 🍟</p>
+                            <p class="card-text"><i class="fa-solid fa-location-dot"></i> 777 Jesse Pinkman, Chile</p>
+                            <hr>
+                            <p class="text-end">$30.990 <span class=" ml-2 mb-1 text-success font-weight-normal fs-4">
+                                    $12.990</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="assets/img/fotoComida3.jpg" height="240px" class="card-img-top"
+                            alt="foto plato de comida">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa de cerdo</h5>
+                            <p class="card-text">Con este clima más frío, un café caliente sienta genial ☕️ é ven y bébelo a nuestro local</p>
+                            <p class="card-text"><i class="fa-solid fa-location-dot"></i> 777 Jesse Pinkman, Chile</p>
+                            <hr>
+                            <p class="text-end">$30.990 <span class=" ml-2 mb-1 text-success font-weight-normal fs-4">
+                                    $12.990</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
 
-
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
